@@ -27,30 +27,49 @@
       }
     }
   </script>
+
+     <!-- icons -->
+    <script src="https://kit.fontawesome.com/431c478000.js" crossorigin="anonymous"></script>
+
+    <!-- css link -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- header section -->
-    <header style="background-image: linear-gradient(#EAEDF4,#EAE9EF);">
-        <nav class="flex justify-center items-center">
-            <ul class="list-none flex items-center">
-                <li class="
-                mr-"><a href="#" class="uppercase p-4">about us</a></li>
-                <li class="
-                mr-"><a href="#" class="uppercase p-4">work</a></li>
-                <li class="
-                mr-"><a href="#" class="uppercase p-4">
-                    <img class="w-16" src="img/logo.png" alt="">
-                </a></li>
-                <li class="
-                mr-"><a href="#" class="uppercase p-4">shop</a></li>
-                <li class="
-                mr-"><a href="#" class="uppercase p-4">contact</a></li>
-            </ul>
-        </nav>
-
+    <header>
         <section>
 
-            <div class="container mx-auto pt-16">
+            <div class="container mx-auto">
+                <div class="fx">
+    
+                    <nav class="flex justify-center items-center hide">
+                        <ul class="list-none flex items-center">
+                            <li class="
+                            mr-"><a href="#about" class="uppercase px-4">about us</a></li>
+                            <li class="
+                            mr-"><a href="#work" class="uppercase px-4">work</a></li>
+                            <li class="
+                            mr-"><a href="index.html" class="uppercase px-4">
+                                <img class="w-8" src="img/logo.png" alt="">
+                            </a></li>
+                            <li class="
+                            mr-"><a href="#shop" class="uppercase px-4">shop</a></li>
+                            <li class="
+                            mr-"><a href="#contact" class="uppercase px-4">contact</a></li>
+                        </ul>
+                        
+                    </nav>
+                    <nav class="sec justify-center items-center hidden">
+                        <a class="mt-3" href="#"><span class="fas fa-bars"></span></a>
+                        
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <section style="background-image: linear-gradient(#EAEDF4,#EAE9EF);">
+
+            <div class="container mx-auto pt-36">
                 <div class="flex justify-center align-bottom">
                     <img class="w-9/12" src="img/header.png" alt="">
                 </div>
@@ -59,7 +78,7 @@
     </header>
     <main>
         <!-- cycle-detailes -->
-        <section class="py-20 bg-bodybkt">
+        <section class="py-24 bg-bodybkt" id="about">
             <div class="container mx-auto flex flex-col items-center">
                 <div class="text-center">
                     <div class="flex justify-center mb-4">
@@ -73,14 +92,14 @@
         </section>
 
         <!-- part 1 -->
-        <section>
+        <section id="work">
             <div class="2xl:container mx-auto">
-                <div class="grid grid-cols-3">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
 
-                    <div class="col-span-2 row-span-2">
+                    <div class="sm:col-span-2 sm:row-span-2 order-2">
                         <img class="w-full h-full" src="img/b1.png" alt="">
                     </div>
-                    <div class="flex justify-center p-7 py-9">
+                    <div class="flex justify-center p-7 py-9 sm:order-2 order-1">
                         <div class="text-center">
                             <div class="flex justify-center mb-3">
                                 <img src="img/2.png" alt="">
@@ -90,7 +109,7 @@
                             <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolore et voluptate non beatae a est pariatur magni, tempore nemo.</p>
                         </div>
                     </div>
-                    <div>
+                    <div class="order-3">
                         <img class="w-full h-full" src="img/b2.png" alt="">
                     </div>
                 </div>
@@ -99,10 +118,10 @@
 
         <section>
             <div class="2xl:container mx-auto">
-                <div class="grid grid-cols-3">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
 
                     
-                    <div class="flex justify-center p-7 py-9">
+                    <div class="flex justify-center p-7 py-9 md:order-1 sm:order-2 order-1">
                         <div class="text-center">
                             <div class="flex justify-center mb-3">
                                 <img src="img/3.png" alt="">
@@ -112,18 +131,141 @@
                             <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolore et voluptate non beatae a est pariatur magni, tempore nemo.</p>
                         </div>
                     </div>
-                    <div class="col-span-2 row-span-2">
+                    <div class="sm:col-span-2 row-span-2 md:order-2 sm:order-1 order-2">
                         <img class="w-full h-full" src="img/b3.png" alt="">
                     </div>
-                    <div>
+                    <div class="md:order-3 order-3">
                         <img class="w-full h-full" src="img/b4.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
-    </main>
-    <footer>
 
+        <section>
+            <div class="2xl:container mx-auto">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+                    <div class=" row-span-1 sm:row-span-3 md:order-1 sm:order-1 order-2">
+                        
+
+                        <img class="w-full h-full" src="img/b5.png" alt="">
+                        
+                    </div>
+                    <div class="flex justify-center p-7 py-9 sm:row-span-2 md:order-2 sm:order-3 order-1">
+                        <div class="text-center">
+                            <div class="flex justify-center mb-3">
+                                <img src="img/4.png" alt="">
+                            </div>
+                            
+                            <h2 class="uppercase text-2xl mb-3">retro bike - m. hulot</h2>
+                            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita dolore et voluptate non beatae a est pariatur magni, tempore nemo.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="row-span-1 sm:row-span-3 md:order-3 sm:order-2 order-3 sm:h-full h-3/4">
+                        <img class="w-full sm:h-full" src="img/b6.png" alt="">
+                    </div>
+                    <div class=" row-span-1 md:row-span-1 sm:row-span-2 md:order-4 sm:order-4 order-4">
+                        <img class="w-full h-full" src="img/b7.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-bodybkt">
+            <div class="container mx-auto flex flex-col items-center">
+                <div class="text-center">
+                    <div class="flex justify-center mb-4">
+                        <i class="fab fa-twitter text-cyan-800 text-2xl  "></i>
+                        
+                    </div>
+                    <h2 class="uppercase text-xl mb-8">AOD New York @aod / <small>
+                        35 min
+                    </small>
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni reprehenderit facere maxime velit eos dignissimos! Assumenda, odio modi, sint ipsum quaerat voluptas cumque, explicabo quis reprehenderit optio perspiciatis quia minus.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- shop section -->
+
+        <section id="shop">
+            <div class="2xl:container mx-auto">
+                <div class="grid grid-cols-6">
+                    <div class="">
+                        <img class="w-full h-full" src="img/newpic/1.png" alt="">
+                    </div>
+                    <div class="">
+                        <img src="img/newpic/2.png" alt="">
+                    </div>
+                    
+                    <div class="row-span-2">
+                        <img class="w-full h-full" src="img/newpic/4.png" alt="">
+                    </div>
+                    <div class="row-span-2">
+                        <img class="w-full h-full" src="img/newpic/5.png" alt="">
+                    </div>
+                    <div class="col-span-2">
+                        <img src="img/newpic/6.png" alt="">
+                    </div>
+                    <div class="col-span-2">
+                        <img src="img/newpic/3.png" alt="">
+                    </div>
+                    <div class="">
+                        <img src="img/newpic/8.png" alt="">
+                    </div>
+                    <div class="">
+                        <img src="img/newpic/9.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-neutral-900 py-24">
+            <div class="text-center">
+                <a href="#" class="uppercase px-10 py-3 text-white border border-solid border-white">dicover the shop</a>
+            </div>
+        </section>
+
+        <section class="py-20" id="contact">
+            <div class="container mx-auto">
+                <div class="flex flex-col items-center">
+                    
+
+                        <img class="w-28 mb-6" src="img/logo.png" alt="...">
+                    
+                    <h2 class="text-3xl italic mb-6">Stay on the saddle!</h2>
+                    <div class="input flex">
+                        <input type="text" class="txt p-3" placeholder="Enter your email">
+                        <input type="submit" name="" id="submit" class="py-3 px-9" value="GO">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="py-20 bg-bodybkt">
+        <div class="container mx-auto">
+            <div class="grid gap-6 grid-cols-1 sm:grid-cols-3 items-center justify-center">
+                <div class="flex justify-center">
+                    
+                    <div class="text-center">
+                        <p>AOD New York</p>
+                        <p>2260 Lexington Avenue</p>
+                        <p>New York,NY 10035 - info@domain</p>
+                    </div>
+                </div>
+                <div class="flex justify-center">
+                    <i class="fab fa-facebook ml-2 text-cyan-800 text-2xl "></i>
+                    <i class="fab fa-twitter ml-2 text-cyan-800 text-2xl  "></i>
+                    <i class="fab fa-pinterest ml-2 text-cyan-800 text-2xl"></i>
+                </div>
+                <div class="flex justify-center items-center">
+                    <p>Handcraft by </p>
+                    <img class="ml-1 w-9" src="img/sig.png" alt="">
+
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>

@@ -1,0 +1,40 @@
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.input .txt{
+    width: 300px;
+    border: 1px solid #333;
+    margin-right: 5px;
+}
+.input #submit{
+    border: 1px solid #333;
+    color: white;
+    background-color: #63C19D;
+}
+.fx{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* z-index: 99; */
+    background-color: rgba(31, 33, 34, 0.582);
+}
+
+
+
+@media (max-width:447px) {
+    header nav.hide{
+        display: none;
+    }
+    .input .txt {
+        width: 180px;
+        
+    }
+    .fx .sec{
+        display: flex;
+    }
+
+}
+
